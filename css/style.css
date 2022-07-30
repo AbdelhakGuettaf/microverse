@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-color: #eeeeee;
 }
@@ -23,4 +24,38 @@ body {
   text-transform: uppercase;
   border: none;
   padding: 0.5rem;
+=======
+@media (width: 600px) {
+  .nav-link {
+    display: hidden;
+  }
+}
+#header {
+  display: flex;
+  height: 60px;
+}
+#img-container {
+  padding: 12px 30px;
+  flex-grow: 1.5;
+}
+#header-img {
+  height: 35px;
+}
+#nav-bar {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  padding: auto;
+}
+.nav-link {
+  text-align: center;
+  flex-grow: 1;
+}
+.nav-link a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  color: black;
+>>>>>>> 3ed3c7f7fac0015e1c688de0ad3e544d6151762c
 }

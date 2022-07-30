@@ -58,6 +58,7 @@ body {
   border: none;
   padding: 0.5rem;
 }
+<<<<<<< HEAD
 
 /* video section style css */
 #video {
@@ -67,4 +68,24 @@ body {
 
 .video iframe {
   margin: auto;
+=======
+.icon {
+  width: 180px;
+}
+.icon * {
+  height: 60px;
+  width: 60px;
+  margin: 20px 60px;
+  fill: orange;
+}
+#grid-cards {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#card {
+  display: flex;
+  width: 50vw;
+>>>>>>> f987b104599b589f335ef63d3046954b681d8f60
 }

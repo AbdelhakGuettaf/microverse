@@ -27,8 +27,6 @@ body {
 .nav-link {
   text-align: center;
   flex-grow: 1;
-}
-.nav-link a {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -99,6 +97,8 @@ body {
   justify-content: center;
   margin: auto;
   gap: 2rem;
+  margin-bottom: 2rem;
+  width: 71vw;
 }
 
 .price_card {
@@ -107,7 +107,7 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid #000;
-  width: 300px;
+  flex: 1;
 }
 .card_body {
   flex-grow: 1;
@@ -143,4 +143,31 @@ body {
   font-size: 1rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+#footer {
+  margin: 0 auto;
+  width: 71vw;
+  height: 80px;
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: column;
+}
+#footer-nav {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+#footer-nav > a {
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+#footer-nav,
+#footer > span {
+  margin-left: auto;
+  margin-right: 18px;
+}
+#footer > span {
+  color: #818181;
 }

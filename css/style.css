@@ -1,0 +1,33 @@
+@media (width: 600px) {
+  .nav-link {
+    display: hidden;
+  }
+}
+#header {
+  display: flex;
+  height: 60px;
+}
+#img-container {
+  padding: 12px 30px;
+  flex-grow: 1.5;
+}
+#header-img {
+  height: 35px;
+}
+#nav-bar {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  padding: auto;
+}
+.nav-link {
+  text-align: center;
+  flex-grow: 1;
+}
+.nav-link a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  color: black;
+}

@@ -58,3 +58,13 @@ body {
   border: none;
   padding: 0.5rem;
 }
+
+/* video section style css */
+#video {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.video iframe {
+  margin: auto;
+}

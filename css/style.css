@@ -1,5 +1,6 @@
 body {
   background-color: #eeeeee;
+  padding-top: 80px;
 }
 
 @media (width: 600px) {
@@ -10,6 +11,10 @@ body {
 #header {
   display: flex;
   height: 60px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 #img-container {
   padding: 12px 30px;

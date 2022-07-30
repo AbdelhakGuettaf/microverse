@@ -58,3 +58,22 @@ body {
   border: none;
   padding: 0.5rem;
 }
+.icon {
+  width: 180px;
+}
+.icon * {
+  height: 60px;
+  width: 60px;
+  margin: 20px 60px;
+  fill: orange;
+}
+#grid-cards {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#card {
+  display: flex;
+  width: 50vw;
+}
